@@ -1,4 +1,3 @@
-
 :root {
     --color-red: #F03C42;
     --color-white: #fff;
@@ -14,10 +13,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    
   }
 
-  
 header {
     width: 100%;
     height: 100px;
@@ -157,7 +154,6 @@ a, a:hover {
 footer {
     height: 262px;
     background-color: var(--text-black);
-    text-align: center;
     align-items: center;
     display: flex;
     font-weight: 400;
@@ -166,13 +162,11 @@ footer {
 }
 
 .footer-social {
-    height: 140px;
     color: var(--color-white);
     align-items: center;
     flex-direction: column;
-    margin: auto;
+    margin: 0 auto;
     display: flex;
-    
 }
 
 .footer-social img {
@@ -184,6 +178,7 @@ footer {
     align-items: center;
     justify-content: space-between;
   }
+
 .twitter {
     display: flex;
     align-items: center;
@@ -192,6 +187,6 @@ footer {
   }
 .footer-description {
     margin-top: 20px;
-   
+    text-align: center;
   }
 
